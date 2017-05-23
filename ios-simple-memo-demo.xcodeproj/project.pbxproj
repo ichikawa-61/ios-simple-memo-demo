@@ -14,6 +14,9 @@
 		BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */; };
 		BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */; };
 		BCB2E7D71ED41C5000E7E876 /* ios_simple_memo_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */; };
+		BCB2E7F31ED4225800E7E876 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */; };
+		BCB2E7F41ED4225800E7E876 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F21ED4225800E7E876 /* Memo.swift */; };
+		BCB2E7F61ED4227E00E7E876 /* MemoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */; };
 		E1109C59D0C53A48E4C9970E /* Pods_ios_simple_memo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		BCB2E7D21ED41C5000E7E876 /* ios-simple-memo-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-simple-memo-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_simple_memo_demoTests.swift; sourceTree = "<group>"; };
 		BCB2E7D81ED41C5000E7E876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		BCB2E7F21ED4225800E7E876 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDao.swift; sourceTree = "<group>"; };
 		C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demo/Pods-ios-simple-memo-demo.release.xcconfig"; sourceTree = "<group>"; };
 		CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +127,9 @@
 		BCB2E7E51ED41E5600E7E876 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCB2E7F01ED4225800E7E876 /* Helpers */,
+				BCB2E7F21ED4225800E7E876 /* Memo.swift */,
+				BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,6 +156,14 @@
 				BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		BCB2E7F01ED4225800E7E876 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D1F156B91B755195C482619E /* Pods */ = {
@@ -364,6 +381,9 @@
 			files = (
 				BCB2E7C41ED41C5000E7E876 /* ViewController.swift in Sources */,
 				BCB2E7C21ED41C5000E7E876 /* AppDelegate.swift in Sources */,
+				BCB2E7F31ED4225800E7E876 /* RealmDaoHelper.swift in Sources */,
+				BCB2E7F41ED4225800E7E876 /* Memo.swift in Sources */,
+				BCB2E7F61ED4227E00E7E876 /* MemoDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

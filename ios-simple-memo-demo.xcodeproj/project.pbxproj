@@ -28,6 +28,7 @@
 		BCD506B51ED42B3800ED1D95 /* MemoAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */; };
 		BCD506B91ED4321100ED1D95 /* MemoDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B81ED4321100ED1D95 /* MemoDaoTests.swift */; };
 		BCD506BB1ED43CAC00ED1D95 /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */; };
+		BCD506BE1ED4415400ED1D95 /* MemoListTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506BD1ED4415400ED1D95 /* MemoListTableViewCellTests.swift */; };
 		E1109C59D0C53A48E4C9970E /* Pods_ios_simple_memo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoAlertHelper.swift; sourceTree = "<group>"; };
 		BCD506B81ED4321100ED1D95 /* MemoDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDaoTests.swift; sourceTree = "<group>"; };
 		BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
+		BCD506BD1ED4415400ED1D95 /* MemoListTableViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListTableViewCellTests.swift; sourceTree = "<group>"; };
 		C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demo/Pods-ios-simple-memo-demo.release.xcconfig"; sourceTree = "<group>"; };
 		CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 		BCB2E7D51ED41C5000E7E876 /* ios-simple-memo-demoTests */ = {
 			isa = PBXGroup;
 			children = (
+				BCD506BC1ED4413C00ED1D95 /* Views */,
 				BCD506B71ED431DB00ED1D95 /* Models */,
 				BCB2E7D81ED41C5000E7E876 /* Info.plist */,
 			);
@@ -245,6 +248,14 @@
 				BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BCD506BC1ED4413C00ED1D95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCD506BD1ED4415400ED1D95 /* MemoListTableViewCellTests.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		D1F156B91B755195C482619E /* Pods */ = {
@@ -485,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD506B91ED4321100ED1D95 /* MemoDaoTests.swift in Sources */,
+				BCD506BE1ED4415400ED1D95 /* MemoListTableViewCellTests.swift in Sources */,
 				BCD506BB1ED43CAC00ED1D95 /* MemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

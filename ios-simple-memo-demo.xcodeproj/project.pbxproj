@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		809F113A34EB126AE900EF49 /* Pods_ios_simple_memo_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */; };
 		BCB2E7C21ED41C5000E7E876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */; };
-		BCB2E7C41ED41C5000E7E876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7C31ED41C5000E7E876 /* ViewController.swift */; };
-		BCB2E7C71ED41C5000E7E876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7C51ED41C5000E7E876 /* Main.storyboard */; };
 		BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */; };
 		BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */; };
 		BCB2E7D71ED41C5000E7E876 /* ios_simple_memo_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */; };
@@ -48,8 +46,6 @@
 		944DCDD00120AAB02FC00FC4 /* Pods-ios-simple-memo-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demoTests/Pods-ios-simple-memo-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BCB2E7BE1ED41C5000E7E876 /* ios-simple-memo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-simple-memo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB2E7C31ED41C5000E7E876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCB2E7C61ED41C5000E7E876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB2E7CB1ED41C5000E7E876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB2E7CD1ED41C5000E7E876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,8 +131,6 @@
 				BCB2E7E81ED41E6900E7E876 /* Others */,
 				BCB2E7E61ED41E5B00E7E876 /* Views */,
 				BCB2E7CD1ED41C5000E7E876 /* Info.plist */,
-				BCB2E7C51ED41C5000E7E876 /* Main.storyboard */,
-				BCB2E7C31ED41C5000E7E876 /* ViewController.swift */,
 			);
 			path = "ios-simple-memo-demo";
 			sourceTree = "<group>";
@@ -239,7 +233,6 @@
 				BCB2E7F21ED4225800E7E876 /* Memo.swift */,
 				BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */,
 			);
-			name = Memo;
 			path = Memo;
 			sourceTree = "<group>";
 		};
@@ -348,7 +341,6 @@
 				BCD506B21ED427F200ED1D95 /* MemoViewController.storyboard in Resources */,
 				BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */,
 				BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */,
-				BCB2E7C71ED41C5000E7E876 /* Main.storyboard in Resources */,
 				BCD506A31ED4251D00ED1D95 /* MemoListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +453,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD5069A1ED4243300ED1D95 /* MemoListProvider.swift in Sources */,
-				BCB2E7C41ED41C5000E7E876 /* ViewController.swift in Sources */,
 				BCD506A91ED4264100ED1D95 /* Constrains.swift in Sources */,
 				BCD506A41ED4251D00ED1D95 /* MemoListViewController.swift in Sources */,
 				BCD506B31ED427F200ED1D95 /* MemoViewController.swift in Sources */,
@@ -496,15 +487,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCB2E7C51ED41C5000E7E876 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCB2E7C61ED41C5000E7E876 /* Base */,
-			);
-			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
 		BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

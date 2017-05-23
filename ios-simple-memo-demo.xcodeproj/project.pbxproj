@@ -17,6 +17,18 @@
 		BCB2E7F31ED4225800E7E876 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */; };
 		BCB2E7F41ED4225800E7E876 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F21ED4225800E7E876 /* Memo.swift */; };
 		BCB2E7F61ED4227E00E7E876 /* MemoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */; };
+		BCD5069A1ED4243300ED1D95 /* MemoListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506991ED4243300ED1D95 /* MemoListProvider.swift */; };
+		BCD5069C1ED4245900ED1D95 /* MemoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5069B1ED4245900ED1D95 /* MemoListTableViewCell.swift */; };
+		BCD5069F1ED424B200ED1D95 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5069E1ED424B200ED1D95 /* Date+Format.swift */; };
+		BCD506A31ED4251D00ED1D95 /* MemoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD506A11ED4251D00ED1D95 /* MemoListViewController.storyboard */; };
+		BCD506A41ED4251D00ED1D95 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506A21ED4251D00ED1D95 /* MemoListViewController.swift */; };
+		BCD506A91ED4264100ED1D95 /* Constrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506A81ED4264100ED1D95 /* Constrains.swift */; };
+		BCD506AB1ED4268D00ED1D95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD506AA1ED4268D00ED1D95 /* Localizable.strings */; };
+		BCD506AD1ED426EE00ED1D95 /* UIBarButtonItem+MemoCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506AC1ED426EE00ED1D95 /* UIBarButtonItem+MemoCount.swift */; };
+		BCD506AF1ED4279100ED1D95 /* UIStoryboard+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506AE1ED4279100ED1D95 /* UIStoryboard+Helper.swift */; };
+		BCD506B21ED427F200ED1D95 /* MemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD506B01ED427F200ED1D95 /* MemoViewController.storyboard */; };
+		BCD506B31ED427F200ED1D95 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B11ED427F200ED1D95 /* MemoViewController.swift */; };
+		BCD506B51ED42B3800ED1D95 /* MemoAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */; };
 		E1109C59D0C53A48E4C9970E /* Pods_ios_simple_memo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +59,18 @@
 		BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
 		BCB2E7F21ED4225800E7E876 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDao.swift; sourceTree = "<group>"; };
+		BCD506991ED4243300ED1D95 /* MemoListProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListProvider.swift; sourceTree = "<group>"; };
+		BCD5069B1ED4245900ED1D95 /* MemoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListTableViewCell.swift; sourceTree = "<group>"; };
+		BCD5069E1ED424B200ED1D95 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		BCD506A11ED4251D00ED1D95 /* MemoListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoListViewController.storyboard; sourceTree = "<group>"; };
+		BCD506A21ED4251D00ED1D95 /* MemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		BCD506A81ED4264100ED1D95 /* Constrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrains.swift; sourceTree = "<group>"; };
+		BCD506AA1ED4268D00ED1D95 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BCD506AC1ED426EE00ED1D95 /* UIBarButtonItem+MemoCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+MemoCount.swift"; sourceTree = "<group>"; };
+		BCD506AE1ED4279100ED1D95 /* UIStoryboard+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Helper.swift"; sourceTree = "<group>"; };
+		BCD506B01ED427F200ED1D95 /* MemoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoViewController.storyboard; sourceTree = "<group>"; };
+		BCD506B11ED427F200ED1D95 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoAlertHelper.swift; sourceTree = "<group>"; };
 		C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demo/Pods-ios-simple-memo-demo.release.xcconfig"; sourceTree = "<group>"; };
 		CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +128,9 @@
 		BCB2E7C01ED41C5000E7E876 /* ios-simple-memo-demo */ = {
 			isa = PBXGroup;
 			children = (
+				BCD506A71ED4263300ED1D95 /* Constrains */,
 				BCB2E7E71ED41E6000E7E876 /* Controllers */,
+				BCD5069D1ED4248B00ED1D95 /* Extensions */,
 				BCB2E7E51ED41E5600E7E876 /* Models */,
 				BCB2E7E81ED41E6900E7E876 /* Others */,
 				BCB2E7E61ED41E5B00E7E876 /* Views */,
@@ -128,8 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				BCB2E7F01ED4225800E7E876 /* Helpers */,
-				BCB2E7F21ED4225800E7E876 /* Memo.swift */,
-				BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */,
+				BCD506B61ED42CD600ED1D95 /* Memo */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,6 +162,7 @@
 		BCB2E7E61ED41E5B00E7E876 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCD506981ED4241C00ED1D95 /* Memo */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +170,7 @@
 		BCB2E7E71ED41E6000E7E876 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BCD506A01ED4251200ED1D95 /* Memo */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +181,7 @@
 				BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */,
 				BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */,
 				BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */,
+				BCD506AA1ED4268D00ED1D95 /* Localizable.strings */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -164,6 +192,55 @@
 				BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BCD506981ED4241C00ED1D95 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */,
+				BCD506991ED4243300ED1D95 /* MemoListProvider.swift */,
+				BCD5069B1ED4245900ED1D95 /* MemoListTableViewCell.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		BCD5069D1ED4248B00ED1D95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCD5069E1ED424B200ED1D95 /* Date+Format.swift */,
+				BCD506AC1ED426EE00ED1D95 /* UIBarButtonItem+MemoCount.swift */,
+				BCD506AE1ED4279100ED1D95 /* UIStoryboard+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCD506A01ED4251200ED1D95 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BCD506A11ED4251D00ED1D95 /* MemoListViewController.storyboard */,
+				BCD506A21ED4251D00ED1D95 /* MemoListViewController.swift */,
+				BCD506B01ED427F200ED1D95 /* MemoViewController.storyboard */,
+				BCD506B11ED427F200ED1D95 /* MemoViewController.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		BCD506A71ED4263300ED1D95 /* Constrains */ = {
+			isa = PBXGroup;
+			children = (
+				BCD506A81ED4264100ED1D95 /* Constrains.swift */,
+			);
+			path = Constrains;
+			sourceTree = "<group>";
+		};
+		BCD506B61ED42CD600ED1D95 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB2E7F21ED4225800E7E876 /* Memo.swift */,
+				BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */,
+			);
+			name = Memo;
+			path = Memo;
 			sourceTree = "<group>";
 		};
 		D1F156B91B755195C482619E /* Pods */ = {
@@ -233,6 +310,7 @@
 				TargetAttributes = {
 					BCB2E7BD1ED41C5000E7E876 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCCZJUYRT6;
 						ProvisioningStyle = Automatic;
 					};
 					BCB2E7D11ED41C5000E7E876 = {
@@ -266,9 +344,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD506AB1ED4268D00ED1D95 /* Localizable.strings in Resources */,
+				BCD506B21ED427F200ED1D95 /* MemoViewController.storyboard in Resources */,
 				BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */,
 				BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */,
 				BCB2E7C71ED41C5000E7E876 /* Main.storyboard in Resources */,
+				BCD506A31ED4251D00ED1D95 /* MemoListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +460,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD5069A1ED4243300ED1D95 /* MemoListProvider.swift in Sources */,
 				BCB2E7C41ED41C5000E7E876 /* ViewController.swift in Sources */,
+				BCD506A91ED4264100ED1D95 /* Constrains.swift in Sources */,
+				BCD506A41ED4251D00ED1D95 /* MemoListViewController.swift in Sources */,
+				BCD506B31ED427F200ED1D95 /* MemoViewController.swift in Sources */,
+				BCD506AF1ED4279100ED1D95 /* UIStoryboard+Helper.swift in Sources */,
 				BCB2E7C21ED41C5000E7E876 /* AppDelegate.swift in Sources */,
+				BCD5069C1ED4245900ED1D95 /* MemoListTableViewCell.swift in Sources */,
 				BCB2E7F31ED4225800E7E876 /* RealmDaoHelper.swift in Sources */,
 				BCB2E7F41ED4225800E7E876 /* Memo.swift in Sources */,
+				BCD506B51ED42B3800ED1D95 /* MemoAlertHelper.swift in Sources */,
+				BCD5069F1ED424B200ED1D95 /* Date+Format.swift in Sources */,
+				BCD506AD1ED426EE00ED1D95 /* UIBarButtonItem+MemoCount.swift in Sources */,
 				BCB2E7F61ED4227E00E7E876 /* MemoDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +615,7 @@
 			baseConfigurationReference = 8B48996FAB3733DE32FF6C59 /* Pods-ios-simple-memo-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-simple-memo-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-simple-memo-demo";
@@ -538,6 +629,7 @@
 			baseConfigurationReference = C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-simple-memo-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-simple-memo-demo";

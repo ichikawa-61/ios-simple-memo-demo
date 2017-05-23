@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ios-simple-memo-demo
+
+  Created by Eiji Kushida on 2017/05/23.
+  Copyright © 2017年 Eiji Kushida. All rights reserved.
+*/
+
+"addMemoButton" = "メモ追加";
+
+"cancelButtonTitle" = "キャンセル";
+"saveButtonTitle" = "保存";
+"deleteAllButton" = "すべて削除";

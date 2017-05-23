@@ -17,9 +17,8 @@ final class MemoDao {
     /// メモを登録する
     ///
     /// - Parameters:
-    ///   - folderID: フォルダID
     ///   - memo:  メモ
-    static func add(folderID: Int, memo: String) {
+    static func add(memo: String) {
 
         let object = Memo()
         object.memoID = MemoDao.dao.newId()!

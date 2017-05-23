@@ -11,7 +11,6 @@
 		BCB2E7C21ED41C5000E7E876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */; };
 		BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */; };
 		BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */; };
-		BCB2E7D71ED41C5000E7E876 /* ios_simple_memo_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */; };
 		BCB2E7F31ED4225800E7E876 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */; };
 		BCB2E7F41ED4225800E7E876 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F21ED4225800E7E876 /* Memo.swift */; };
 		BCB2E7F61ED4227E00E7E876 /* MemoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7F51ED4227E00E7E876 /* MemoDao.swift */; };
@@ -27,6 +26,8 @@
 		BCD506B21ED427F200ED1D95 /* MemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD506B01ED427F200ED1D95 /* MemoViewController.storyboard */; };
 		BCD506B31ED427F200ED1D95 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B11ED427F200ED1D95 /* MemoViewController.swift */; };
 		BCD506B51ED42B3800ED1D95 /* MemoAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */; };
+		BCD506B91ED4321100ED1D95 /* MemoDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506B81ED4321100ED1D95 /* MemoDaoTests.swift */; };
+		BCD506BB1ED43CAC00ED1D95 /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */; };
 		E1109C59D0C53A48E4C9970E /* Pods_ios_simple_memo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +51,6 @@
 		BCB2E7CB1ED41C5000E7E876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB2E7CD1ED41C5000E7E876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB2E7D21ED41C5000E7E876 /* ios-simple-memo-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-simple-memo-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_simple_memo_demoTests.swift; sourceTree = "<group>"; };
 		BCB2E7D81ED41C5000E7E876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB2E7F11ED4225800E7E876 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
 		BCB2E7F21ED4225800E7E876 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
@@ -67,6 +67,8 @@
 		BCD506B01ED427F200ED1D95 /* MemoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoViewController.storyboard; sourceTree = "<group>"; };
 		BCD506B11ED427F200ED1D95 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		BCD506B41ED42B3800ED1D95 /* MemoAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoAlertHelper.swift; sourceTree = "<group>"; };
+		BCD506B81ED4321100ED1D95 /* MemoDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDaoTests.swift; sourceTree = "<group>"; };
+		BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
 		C1F5B7DE1BDF6048A541B3C9 /* Pods_ios_simple_memo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demo/Pods-ios-simple-memo-demo.release.xcconfig"; sourceTree = "<group>"; };
 		CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_memo_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +140,8 @@
 		BCB2E7D51ED41C5000E7E876 /* ios-simple-memo-demoTests */ = {
 			isa = PBXGroup;
 			children = (
+				BCD506B71ED431DB00ED1D95 /* Models */,
 				BCB2E7D81ED41C5000E7E876 /* Info.plist */,
-				BCB2E7D61ED41C5000E7E876 /* ios_simple_memo_demoTests.swift */,
 			);
 			path = "ios-simple-memo-demoTests";
 			sourceTree = "<group>";
@@ -236,6 +238,15 @@
 			path = Memo;
 			sourceTree = "<group>";
 		};
+		BCD506B71ED431DB00ED1D95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCD506B81ED4321100ED1D95 /* MemoDaoTests.swift */,
+				BCD506BA1ED43CAC00ED1D95 /* MemoTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D1F156B91B755195C482619E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +319,7 @@
 					};
 					BCB2E7D11ED41C5000E7E876 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BCB2E7BD1ED41C5000E7E876;
 					};
@@ -472,7 +484,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB2E7D71ED41C5000E7E876 /* ios_simple_memo_demoTests.swift in Sources */,
+				BCD506B91ED4321100ED1D95 /* MemoDaoTests.swift in Sources */,
+				BCD506BB1ED43CAC00ED1D95 /* MemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,10 +639,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ios-simple-memo-demoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-simple-memo-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-simple-memo-demo.app/ios-simple-memo-demo";
 			};
@@ -641,6 +656,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ios-simple-memo-demoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-simple-memo-demoTests";

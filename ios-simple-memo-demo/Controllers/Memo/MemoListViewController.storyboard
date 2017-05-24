@@ -79,9 +79,10 @@
                                             <action selector="didTapEditMemo:" destination="VzG-oX-ovS" id="ehp-Kr-Tga"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bmD-Mc-BQK"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Zpl-EY-jfJ"/>
                                     <barButtonItem title="◯件のメモ" id="yYE-sb-MUM"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="KuT-Ex-RWo"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fkj-Gp-YBH"/>
+                                    <barButtonItem title="　　　　" id="4BG-Ff-8Ee"/>
                                 </items>
                             </toolbar>
                         </subviews>

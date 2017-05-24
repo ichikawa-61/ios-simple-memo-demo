@@ -621,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B48996FAB3733DE32FF6C59 /* Pods-ios-simple-memo-demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-simple-memo-demo/Info.plist";
@@ -635,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C28FD3E5BD095E8617B20CA2 /* Pods-ios-simple-memo-demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-simple-memo-demo/Info.plist";

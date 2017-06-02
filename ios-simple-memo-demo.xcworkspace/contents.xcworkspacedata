@@ -7,4 +7,14 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:ios-simple-memo-demoTests/Models"
+      name = "Models">
+      <FileRef
+         location = "group:ios-simple-memo-demoTests/Models/MemoDaoTests.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ios-simple-memo-demoTests/Models/MemoTests.swift">
+      </FileRef>
+   </Group>
 </Workspace>

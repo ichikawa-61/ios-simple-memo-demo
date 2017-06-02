@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		809F113A34EB126AE900EF49 /* Pods_ios_simple_memo_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCEE5A06C7B6D15036EB1B /* Pods_ios_simple_memo_demoTests.framework */; };
+		BC36C18E1EE101CE00849601 /* MemoListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36C18D1EE101CE00849601 /* MemoListViewControllerTests.swift */; };
 		BCB2E7C21ED41C5000E7E876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */; };
 		BCB2E7C91ED41C5000E7E876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */; };
 		BCB2E7CC1ED41C5000E7E876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB2E7CA1ED41C5000E7E876 /* LaunchScreen.storyboard */; };
@@ -46,6 +47,7 @@
 		7E4DC9DB0148C19E77A43129 /* Pods-ios-simple-memo-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demoTests/Pods-ios-simple-memo-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B48996FAB3733DE32FF6C59 /* Pods-ios-simple-memo-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demo/Pods-ios-simple-memo-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		944DCDD00120AAB02FC00FC4 /* Pods-ios-simple-memo-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-memo-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-simple-memo-demoTests/Pods-ios-simple-memo-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC36C18D1EE101CE00849601 /* MemoListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListViewControllerTests.swift; sourceTree = "<group>"; };
 		BCB2E7BE1ED41C5000E7E876 /* ios-simple-memo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-simple-memo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB2E7C11ED41C5000E7E876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCB2E7C81ED41C5000E7E876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC36C18C1EE1017F00849601 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC36C18D1EE101CE00849601 /* MemoListViewControllerTests.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		BCB2E7B51ED41C5000E7E876 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		BCB2E7D51ED41C5000E7E876 /* ios-simple-memo-demoTests */ = {
 			isa = PBXGroup;
 			children = (
+				BC36C18C1EE1017F00849601 /* Controllers */,
 				BCD506BC1ED4413C00ED1D95 /* Views */,
 				BCD506B71ED431DB00ED1D95 /* Models */,
 				BCB2E7D81ED41C5000E7E876 /* Info.plist */,
@@ -495,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC36C18E1EE101CE00849601 /* MemoListViewControllerTests.swift in Sources */,
 				BCD506B91ED4321100ED1D95 /* MemoDaoTests.swift in Sources */,
 				BCD506BE1ED4415400ED1D95 /* MemoListTableViewCellTests.swift in Sources */,
 				BCD506BB1ED43CAC00ED1D95 /* MemoTests.swift in Sources */,

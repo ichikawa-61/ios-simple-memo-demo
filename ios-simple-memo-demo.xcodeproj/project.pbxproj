@@ -113,6 +113,7 @@
 				BC36C18D1EE101CE00849601 /* MemoListViewControllerTests.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BCB2E7B51ED41C5000E7E876 = {
@@ -153,8 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				BC36C18C1EE1017F00849601 /* Controllers */,
-				BCD506BC1ED4413C00ED1D95 /* Views */,
 				BCD506B71ED431DB00ED1D95 /* Models */,
+				BCD506BC1ED4413C00ED1D95 /* Views */,
 				BCB2E7D81ED41C5000E7E876 /* Info.plist */,
 			);
 			path = "ios-simple-memo-demoTests";
@@ -267,6 +268,7 @@
 				BCD506BD1ED4415400ED1D95 /* MemoListTableViewCellTests.swift */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D1F156B91B755195C482619E /* Pods */ = {

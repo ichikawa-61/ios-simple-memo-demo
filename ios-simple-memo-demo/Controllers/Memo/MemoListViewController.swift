@@ -110,8 +110,8 @@ final class MemoListViewController: UIViewController {
         
         alert = MemoAlertHelper()
             .deleteMemo(delegate: self)
-        present(alert, animated: true, completion: {
-            self.alert = nil
+        present(alert, animated: true, completion: { [weak self] in
+            self?.alert = nil
         })
     }
 }

@@ -29,46 +29,53 @@ class MemoListViewControllerTests: XCTestCase {
         super.tearDown()
     }
 
-    func testDefault_ForEditButton() {
+    func testToolBarEditButton_When_Default() {
         XCTAssertEqual(controller.editButton.title, "メモ追加")
     }
 
-    func testNormalMode_ForEditButton() {
+    func testToolBarEditButton_When_EditModeOff() {
         controller.setEditing(false, animated: true)
         XCTAssertEqual(controller.editButton.title, "メモ追加")
     }
 
-    func testEditMode_ForEditButton() {
+    func testToolBarEditButton_When_EditModeOn() {
         controller.setEditing(true, animated: true)
         XCTAssertEqual(controller.editButton.title, "すべて削除")
     }
 
-    func testMemoCountLabel_Default() {
+    func testToolBarMemoCountLabel_When_Default() {
         XCTAssertEqual(controller.memoCountLabel.title, "メモなし")
     }
 
-    func testMemoCountLabel_3Count() {
+    func testToolBarMemoCountLabel_When_Count3() {
         controller.memoCountLabel.setMemoCount(count: 3)
         XCTAssertEqual(controller.memoCountLabel.title, "3件のメモ")
     }
 
-    func testMemoCountLabel_ZeroCount() {
+    func testToolBarMemoCountLabel_When_Count_Zero() {
         controller.memoCountLabel.setMemoCount(count: 0)
         XCTAssertEqual(controller.memoCountLabel.title, "メモなし")
     }
 
-    func testNavigationBarTitle() {
+    func testNavigationBarTitle_When_Default() {
         let title = controller.navigationItem.title
         XCTAssertEqual(title, "メモ")
     }
 
-    func testNavigationBarEditButtonTitle_Edit() {
+    func testNavigationBarEditButtonTitle_When_Default() {
         let title = controller.navigationItem.rightBarButtonItem?.title
         XCTAssertEqual(title, "編集")
     }
 
-    func testNavigationBarEditButtonTitle_Complate() {
+    func testNavigationBarEditButtonTitle_When_EditMode_OFF() {
+        controller.setEditing(false, animated: true)
+        let title = controller.navigationItem.rightBarButtonItem?.title
+        XCTAssertEqual(title, "編集")
+    }
+
+    func testNavigationBarEditButtonTitle_When_EditMode_ON() {
         controller.setEditing(true, animated: true)
         let title = controller.navigationItem.rightBarButtonItem?.title
         XCTAssertEqual(title, "完了")
-    }}
+    }
+}
